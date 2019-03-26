@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Containerized.App.Web.Api", "Basic.Containerized.App.Web.Api\Basic.Containerized.App.Web.Api.csproj", "{841F4F2A-273F-4004-9A1E-C050F13210CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +30,17 @@ Global
 		{E928088D-BA0D-41A7-B174-74BD9F67D776}.Release|x64.Build.0 = Release|Any CPU
 		{E928088D-BA0D-41A7-B174-74BD9F67D776}.Release|x86.ActiveCfg = Release|Any CPU
 		{E928088D-BA0D-41A7-B174-74BD9F67D776}.Release|x86.Build.0 = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|x64.Build.0 = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Debug|x86.Build.0 = Debug|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|x64.ActiveCfg = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|x64.Build.0 = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{841F4F2A-273F-4004-9A1E-C050F13210CC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
