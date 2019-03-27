@@ -10,7 +10,7 @@ RUN dotnet restore
  
 COPY . .
 
-RUN dotnet publish ./Basic.Containerized.App.Web.Api/Basic.Containerized.App.Web.Api.csproj -o /publish/
+RUN dotnet publish ./Basic.Containerized.App.Web.Api/Basic.Containerized.App.Web.Api.csproj -o /publish/ --no-restore
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
 

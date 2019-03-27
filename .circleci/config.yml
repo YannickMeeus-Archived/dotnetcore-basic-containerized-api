@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: docker/compose:1.23.2
+
+    steps:
+      - setup_remote_docker
+      
+      - run:
+          name: Log Into Docker Hub
+          command: |
+            echo $DOCKER_PASSWORD | docker login --username $DOCKER_USER --password-stdin
+      
+      - run:
+          name: Install git
+          command: |
+            apk update
+            apk upgrade
+            apk add --no-cache git 
+            
+      - checkout
+
+      - run:
+          name: Build, Package & Push :latest
+          command: |
+            docker-compose build
+            docker-compose push
+      
+      - run:
+          name: Push :$CIRCLE_BUILD_NUM
+          command: |
+            export IMAGE_TAG=$CIRCLE_BUILD_NUM
+            docker-compose build
+            docker-compose push

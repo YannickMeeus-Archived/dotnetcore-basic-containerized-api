@@ -8,7 +8,6 @@ services:
       #  root
       context: ./
       dockerfile: Basic.Containerized.App.Web.Api/Dockerfile
-    image: makestuffwork/dotnetcore-basic-api
+    image: makestuffwork/dotnetcore-basic-api:${IMAGE_TAG:-latest}
     ports:
      - "5000:80"
-    
