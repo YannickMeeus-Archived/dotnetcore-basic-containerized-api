@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic.Containerized.App.Web.Api", "Basic.Containerized.App.Web.Api\Basic.Containerized.App.Web.Api.csproj", "{841F4F2A-273F-4004-9A1E-C050F13210CC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{28182956-DAD3-4557-82DE-D216AFC5B81B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

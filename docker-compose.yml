@@ -1,0 +1,14 @@
+version: "3"
+services:
+  web-api:
+    build:
+      # Setting the context is important, as we'll be orchestrating multi-component builds using 
+      #  docker-compose, but using specific Dockerfiles.
+      #  This means that the context would be quite all over the shop if we're not pinning it to
+      #  root
+      context: ./
+      dockerfile: Basic.Containerized.App.Web.Api/Dockerfile
+    image: makestuffwork/dotnetcore-basic-api
+    ports:
+     - "5000:80"
+    
